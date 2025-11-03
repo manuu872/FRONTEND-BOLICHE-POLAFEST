@@ -1,0 +1,29 @@
+.estadisticas-container {
+  text-align: center;
+  color: gold;
+  padding: 20px;
+  background-color: black;
+  min-height: 100vh;
+}
+
+.graficos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.grafico-card {
+  background-color: rgba(255, 215, 0, 0.05);
+  border: 1px solid gold;
+  border-radius: 15px;
+  padding: 20px;
+  width: 400px;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.4);
+}
+
+.titulo-egipcio {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  text-shadow: 0 0 15px gold;
+}

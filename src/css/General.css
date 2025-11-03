@@ -1,0 +1,19 @@
+.btn-volver {
+  background-color: #000;
+  color: gold;
+  border: 1px solid gold;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-family: "Cinzel", serif;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px gold;
+  margin-top: 20px;
+}
+
+.btn-volver:hover {
+  background-color: gold;
+  color: black;
+  box-shadow: 0 0 20px gold;
+}

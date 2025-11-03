@@ -1,0 +1,64 @@
+.tarjetas-container {
+  background-color: black;
+  color: gold;
+  min-height: 100vh;
+  padding: 40px;
+  text-align: center;
+  font-family: "Cinzel", serif;
+}
+
+.titulo-egipcio {
+  font-size: 2.3rem;
+  text-shadow: 0 0 15px gold;
+  margin-bottom: 20px;
+}
+
+.tabla-egipcia {
+  width: 85%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 2px solid gold;
+  box-shadow: 0 0 20px gold;
+}
+
+.tabla-egipcia th,
+.tabla-egipcia td {
+  border: 1px solid gold;
+  padding: 10px;
+  text-align: center;
+}
+
+.btn-egipcio {
+  background: gold;
+  color: black;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-egipcio:hover {
+  background: black;
+  color: gold;
+  border: 1px solid gold;
+}
+
+.btn-volver {
+  margin-top: 30px;
+  background: transparent;
+  color: gold;
+  border: 1px solid gold;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-family: "Cinzel", serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-volver:hover {
+  background: gold;
+  color: black;
+  box-shadow: 0 0 20px gold;
+}

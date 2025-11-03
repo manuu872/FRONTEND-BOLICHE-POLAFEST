@@ -1,0 +1,270 @@
+/* ===== CONTENEDOR GENERAL ===== */
+.eventos-container {
+  text-align: center;
+  color: #f4d03f;
+  background-color: #0a0a0a;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+.titulo-egipcio {
+  font-family: "Papyrus", fantasy;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #d4af37;
+  text-shadow: 0 0 10px #d4af37;
+}
+
+/* ===== CARRUSEL ===== */
+.carrusel {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.evento-card {
+  background-color: #111;
+  border: 2px solid #d4af37;
+  border-radius: 15px;
+  width: 300px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.evento-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.7);
+}
+
+.evento-imagen {
+  width: 100%;
+  height: 200px;
+  border-radius: 15px 15px 0 0;
+  object-fit: cover;
+}
+
+.evento-info {
+  padding: 15px;
+}
+
+.evento-info h2 {
+  color: #f4d03f;
+  margin-bottom: 10px;
+  font-family: "Papyrus", fantasy;
+}
+
+.evento-info p {
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+/* ===== BOTONES ===== */
+.btn-egipcio {
+  background-color: #d4af37;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-egipcio:hover {
+  background-color: #f1c40f;
+  transform: scale(1.05);
+}
+
+.btn-volver {
+  display: inline-block;
+  margin-top: 25px;
+  text-decoration: none;
+  color: #d4af37;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.btn-volver:hover {
+  color: #f1c40f;
+}
+
+/* ===== DETALLE DEL EVENTO ===== */
+.detalle-container {
+  background-color: #0a0a0a;
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.detalle-img {
+  width: 100%;
+  max-width: 850px;
+  border-radius: 15px;
+  border: 3px solid #d4af37;
+  margin-bottom: 25px;
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.4);
+}
+
+.detalle-info {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* ===== MODAL DE COMPRA ===== */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal {
+  background: #111;
+  color: white;
+  padding: 30px;
+  border-radius: 15px;
+  border: 2px solid #d4af37;
+  width: 400px;
+  box-shadow: 0 0 30px rgba(212, 175, 55, 0.5);
+  text-align: center;
+}
+
+.modal h2 {
+  margin-bottom: 20px;
+  color: #d4af37;
+  font-family: "Papyrus", fantasy;
+}
+
+/* ===== FORMULARIO DE COMPRA ===== */
+.form-compra {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-compra input,
+.form-compra select {
+  padding: 10px;
+  border: 1px solid #d4af37;
+  border-radius: 5px;
+  background-color: #222;
+  color: white;
+}
+
+.form-compra input:focus,
+.form-compra select:focus {
+  outline: none;
+  border-color: #f1c40f;
+}
+
+.btn-cancelar {
+  background: none;
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-cancelar:hover {
+  background-color: #d4af37;
+  color: black;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.evento-card {
+  animation: fadeInUp 0.8s ease forwards;
+}
+.eventos-container {
+  background-color: transparent;
+}
+.botones-evento {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.botones-evento .btn-egipcio {
+  padding: 8px 14px;
+  background-color: gold;
+  color: black;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.botones-evento .btn-egipcio:hover {
+  background-color: #ffea75;
+  transform: scale(1.05);
+}
+.botones-evento {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn-egipcio {
+  background-color: #ffcc00;
+  border: none;
+  color: #000;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-egipcio:hover {
+  background-color: #ffdb4d;
+  transform: scale(1.05);
+}
+.botones-evento {
+  display: flex;
+  flex-wrap: wrap;         /* 👈 permite que bajen los botones si no entran */
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn-egipcio.eliminar {
+  background-color: #e74c3c;
+  color: #000;
+  border: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-egipcio.eliminar:hover {
+  background-color: #c0392b;
+  transform: scale(1.05);
+}
+
+
+
+
