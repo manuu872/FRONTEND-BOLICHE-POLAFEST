@@ -1,4 +1,4 @@
-/* ===== CONTENEDOR GENERAL ===== */
+
 .eventos-container {
   text-align: center;
   color: #f4d03f;
@@ -15,7 +15,7 @@
   text-shadow: 0 0 10px #d4af37;
 }
 
-/* ===== CARRUSEL ===== */
+
 .carrusel {
   display: flex;
   gap: 25px;
@@ -60,7 +60,7 @@
   margin-bottom: 15px;
 }
 
-/* ===== BOTONES ===== */
+
 .btn-egipcio {
   background-color: #d4af37;
   color: black;
@@ -90,7 +90,7 @@
   color: #f1c40f;
 }
 
-/* ===== DETALLE DEL EVENTO ===== */
+
 .detalle-container {
   background-color: #0a0a0a;
   color: white;
@@ -113,7 +113,7 @@
   margin: 0 auto;
 }
 
-/* ===== MODAL DE COMPRA ===== */
+
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -144,7 +144,7 @@
   font-family: "Papyrus", fantasy;
 }
 
-/* ===== FORMULARIO DE COMPRA ===== */
+
 .form-compra {
   display: flex;
   flex-direction: column;
@@ -243,7 +243,7 @@
 }
 .botones-evento {
   display: flex;
-  flex-wrap: wrap;         /* 👈 permite que bajen los botones si no entran */
+  flex-wrap: wrap;         
   justify-content: center;
   gap: 10px;
   margin-top: 10px;

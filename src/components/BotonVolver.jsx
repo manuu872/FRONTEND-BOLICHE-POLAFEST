@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import "../css/General.css"; // si querés manejar los estilos globales ahí
+import "../css/General.css"; // 
 
 export default function BotonVolver({ ruta = "/" }) {
   const navigate = useNavigate();

@@ -5,7 +5,7 @@ export default function Navegacion() {
   const navigate = useNavigate();
   const location = useLocation();
 
-  // 🔸 No mostrar la barra en el Home
+  
   if (location.pathname === "/") return null;
 
   return (

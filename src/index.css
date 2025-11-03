@@ -80,7 +80,7 @@ button:hover {
   transform: scale(1.1);
 }
 
-/* Animación */
+
 @keyframes zoomIn {
   from {
     transform: scale(0.7);

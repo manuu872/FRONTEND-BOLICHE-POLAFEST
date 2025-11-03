@@ -6,7 +6,7 @@ export default function Eventos() {
   const [eventos, setEventos] = useState([]);
   const navigate = useNavigate();
 
-  // 🔹 Cargar eventos simulados o desde backend
+  
   useEffect(() => {
     const fetchEventos = async () => {
       try {
@@ -16,7 +16,7 @@ export default function Eventos() {
         setEventos(data);
       } catch (error) {
         console.error("Error al cargar eventos:", error);
-        // Si no hay backend, mostramos ejemplos locales
+       
         setEventos([
           {
             id_evento: 1,

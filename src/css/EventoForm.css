@@ -1,4 +1,4 @@
-/* === Reset general === */
+
 html,
 body {
   height: 100%;
@@ -8,7 +8,7 @@ body {
   font-family: "Papyrus", sans-serif;
 }
 
-/* === Contenedor principal centrado === */
+
 .evento-form-container {
   display: flex;
   flex-direction: column;
@@ -18,7 +18,7 @@ body {
   color: #f1c40f;
 }
 
-/* === Título === */
+
 .evento-form-titulo {
   font-size: 2.5rem;
   text-shadow: 0 0 20px #f1c40f;
@@ -26,7 +26,7 @@ body {
   text-align: center;
 }
 
-/* === Caja del formulario === */
+
 .evento-form {
   display: flex;
   flex-direction: column;
@@ -62,7 +62,7 @@ body {
   background-color: #000;
 }
 
-/* === Botones === */
+
 .btn-egipcio {
   background-color: #f1c40f;
   color: #000;
@@ -97,7 +97,7 @@ body {
   transform: scale(1.05);
 }
 
-/* === Responsive === */
+
 @media (max-width: 500px) {
   .evento-form {
     width: 90%;
